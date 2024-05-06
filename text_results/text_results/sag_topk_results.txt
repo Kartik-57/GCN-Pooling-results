@@ -1,0 +1,1386 @@
+
+Problem:  poisson
+Variable:  U
+Parameters:  2
+{'net_name': 'poisson', 'variable': 'U', 'scaling_type': 4, 'scaler_number': 3, 'scaler_name': 'standard', 'skip': 1, 'rate': 30, 'sparse_method': 'L1_mean', 'ffn': 200, 'nodes': 50, 'bottleneck_dim': 15, 'lambda_map': 10.0, 'in_channels': 3, 'seed': 56, 'tolerance': 1e-06, 'learning_rate': 0.001, 'hidden_channels': [1, 1, 1], 'act': <built-in method tanh of type object at 0x7f5c488d38a0>, 'layer_vec': [2, 50, 50, 50, 50, 15], 'net_run': '_standard', 'weight_decay': 1e-05, 'max_epochs': 5000, 'miles': [], 'gamma': 0.0001, 'num_nodes': 0, 'cross_validation': True, 'sparsity_factor': 1, 'pooling_type': 'sag', 'net_dir': './poisson/_standard/U_poisson_lmap10.0_btt15_seed56_lv4_hc3_nd50_ffn200_skip1_lr0.001_sc4_rate30_epochs5000_sparsity1_sagpool/'}
+Device used:  cuda
+Number of nodes processed:  2562
+Number of graphs processed:  100
+Number of sparse sensors: 1
+Type of Pooling: sag
+Is variability present at sensor locations: True
+Length of train dataset:  30
+Length of test dataset:  70
+Training network
+
+Loading best network for epoch:  1403
+
+Maximum absolute error for field GCA-ROM =  6.675011196931264
+Mean absolute error for field GCA-ROM =  2.2618823834750614
+Minimum absolute error for field GCA-ROM =  0.3713202471723046
+
+Maximum relative error for field GCA-ROM =  0.2222679450582324
+Mean relative error for field GCA-ROM =  0.07530643800018566
+Minimum relative error for field GCA-ROM =  0.013266890780185791
+
+Problem:  poisson
+Variable:  U
+Parameters:  2
+{'net_name': 'poisson', 'variable': 'U', 'scaling_type': 4, 'scaler_number': 3, 'scaler_name': 'standard', 'skip': 1, 'rate': 30, 'sparse_method': 'L1_mean', 'ffn': 200, 'nodes': 50, 'bottleneck_dim': 15, 'lambda_map': 10.0, 'in_channels': 3, 'seed': 56, 'tolerance': 1e-06, 'learning_rate': 0.001, 'hidden_channels': [1, 1, 1], 'act': <built-in method tanh of type object at 0x7f8d6c8d38a0>, 'layer_vec': [2, 50, 50, 50, 50, 15], 'net_run': '_standard', 'weight_decay': 1e-05, 'max_epochs': 5000, 'miles': [], 'gamma': 0.0001, 'num_nodes': 0, 'cross_validation': True, 'sparsity_factor': 1, 'pooling_type': 'topk', 'net_dir': './poisson/_standard/U_poisson_lmap10.0_btt15_seed56_lv4_hc3_nd50_ffn200_skip1_lr0.001_sc4_rate30_epochs5000_sparsity1_topkpool/'}
+Device used:  cuda
+Number of nodes processed:  2562
+Number of graphs processed:  100
+Number of sparse sensors: 1
+Type of Pooling: topk
+Is variability present at sensor locations: True
+Length of train dataset:  30
+Length of test dataset:  70
+Training network
+
+Loading best network for epoch:  4629
+
+Maximum absolute error for field GCA-ROM =  6.308214261204628
+Mean absolute error for field GCA-ROM =  2.3439139868766645
+Minimum absolute error for field GCA-ROM =  0.33987950046966925
+
+Maximum relative error for field GCA-ROM =  0.22178242268035092
+Mean relative error for field GCA-ROM =  0.07874281989791079
+Minimum relative error for field GCA-ROM =  0.012022057536581634
+
+Problem:  poisson
+Variable:  U
+Parameters:  2
+{'net_name': 'poisson', 'variable': 'U', 'scaling_type': 4, 'scaler_number': 3, 'scaler_name': 'standard', 'skip': 1, 'rate': 30, 'sparse_method': 'L1_mean', 'ffn': 200, 'nodes': 50, 'bottleneck_dim': 15, 'lambda_map': 10.0, 'in_channels': 3, 'seed': 56, 'tolerance': 1e-06, 'learning_rate': 0.001, 'hidden_channels': [1, 1, 1], 'act': <built-in method tanh of type object at 0x7ff900cd38a0>, 'layer_vec': [2, 50, 50, 50, 50, 15], 'net_run': '_standard', 'weight_decay': 1e-05, 'max_epochs': 5000, 'miles': [], 'gamma': 0.0001, 'num_nodes': 0, 'cross_validation': True, 'sparsity_factor': 3, 'pooling_type': 'sag', 'net_dir': './poisson/_standard/U_poisson_lmap10.0_btt15_seed56_lv4_hc3_nd50_ffn200_skip1_lr0.001_sc4_rate30_epochs5000_sparsity3_sagpool/'}
+Device used:  cuda
+Number of nodes processed:  2562
+Number of graphs processed:  100
+Number of sparse sensors: 3
+Type of Pooling: sag
+Is variability present at sensor locations: True
+Length of train dataset:  30
+Length of test dataset:  70
+Training network
+
+Loading best network for epoch:  814
+
+Maximum absolute error for field GCA-ROM =  1.3600273888361916
+Mean absolute error for field GCA-ROM =  0.5752932008491951
+Minimum absolute error for field GCA-ROM =  0.149500960913674
+
+Maximum relative error for field GCA-ROM =  0.04515029328133779
+Mean relative error for field GCA-ROM =  0.01910507197256485
+Minimum relative error for field GCA-ROM =  0.005164873391350441
+
+Problem:  poisson
+Variable:  U
+Parameters:  2
+{'net_name': 'poisson', 'variable': 'U', 'scaling_type': 4, 'scaler_number': 3, 'scaler_name': 'standard', 'skip': 1, 'rate': 30, 'sparse_method': 'L1_mean', 'ffn': 200, 'nodes': 50, 'bottleneck_dim': 15, 'lambda_map': 10.0, 'in_channels': 3, 'seed': 56, 'tolerance': 1e-06, 'learning_rate': 0.001, 'hidden_channels': [1, 1, 1], 'act': <built-in method tanh of type object at 0x7fb4924d38a0>, 'layer_vec': [2, 50, 50, 50, 50, 15], 'net_run': '_standard', 'weight_decay': 1e-05, 'max_epochs': 5000, 'miles': [], 'gamma': 0.0001, 'num_nodes': 0, 'cross_validation': True, 'sparsity_factor': 3, 'pooling_type': 'topk', 'net_dir': './poisson/_standard/U_poisson_lmap10.0_btt15_seed56_lv4_hc3_nd50_ffn200_skip1_lr0.001_sc4_rate30_epochs5000_sparsity3_topkpool/'}
+Device used:  cuda
+Number of nodes processed:  2562
+Number of graphs processed:  100
+Number of sparse sensors: 3
+Type of Pooling: topk
+Is variability present at sensor locations: True
+Length of train dataset:  30
+Length of test dataset:  70
+Training network
+
+Loading best network for epoch:  3177
+
+Maximum absolute error for field GCA-ROM =  1.7981906557606875
+Mean absolute error for field GCA-ROM =  0.6435230138317718
+Minimum absolute error for field GCA-ROM =  0.17912015893832675
+
+Maximum relative error for field GCA-ROM =  0.06918738359997088
+Mean relative error for field GCA-ROM =  0.022029859611495325
+Minimum relative error for field GCA-ROM =  0.005858504521894484
+
+Problem:  poisson
+Variable:  U
+Parameters:  2
+{'net_name': 'poisson', 'variable': 'U', 'scaling_type': 4, 'scaler_number': 3, 'scaler_name': 'standard', 'skip': 1, 'rate': 30, 'sparse_method': 'L1_mean', 'ffn': 200, 'nodes': 50, 'bottleneck_dim': 15, 'lambda_map': 10.0, 'in_channels': 3, 'seed': 56, 'tolerance': 1e-06, 'learning_rate': 0.001, 'hidden_channels': [1, 1, 1], 'act': <built-in method tanh of type object at 0x7fac3a2d38a0>, 'layer_vec': [2, 50, 50, 50, 50, 15], 'net_run': '_standard', 'weight_decay': 1e-05, 'max_epochs': 5000, 'miles': [], 'gamma': 0.0001, 'num_nodes': 0, 'cross_validation': True, 'sparsity_factor': 5, 'pooling_type': 'sag', 'net_dir': './poisson/_standard/U_poisson_lmap10.0_btt15_seed56_lv4_hc3_nd50_ffn200_skip1_lr0.001_sc4_rate30_epochs5000_sparsity5_sagpool/'}
+Device used:  cuda
+Number of nodes processed:  2562
+Number of graphs processed:  100
+Number of sparse sensors: 5
+Type of Pooling: sag
+Is variability present at sensor locations: True
+Length of train dataset:  30
+Length of test dataset:  70
+Training network
+
+Loading best network for epoch:  925
+
+Maximum absolute error for field GCA-ROM =  1.3691933324534469
+Mean absolute error for field GCA-ROM =  0.40474258439690325
+Minimum absolute error for field GCA-ROM =  0.08880410742672969
+
+Maximum relative error for field GCA-ROM =  0.05268123489102724
+Mean relative error for field GCA-ROM =  0.01372162888450556
+Minimum relative error for field GCA-ROM =  0.00283393318989583
+
+Problem:  poisson
+Variable:  U
+Parameters:  2
+{'net_name': 'poisson', 'variable': 'U', 'scaling_type': 4, 'scaler_number': 3, 'scaler_name': 'standard', 'skip': 1, 'rate': 30, 'sparse_method': 'L1_mean', 'ffn': 200, 'nodes': 50, 'bottleneck_dim': 15, 'lambda_map': 10.0, 'in_channels': 3, 'seed': 56, 'tolerance': 1e-06, 'learning_rate': 0.001, 'hidden_channels': [1, 1, 1], 'act': <built-in method tanh of type object at 0x7ff782ad38a0>, 'layer_vec': [2, 50, 50, 50, 50, 15], 'net_run': '_standard', 'weight_decay': 1e-05, 'max_epochs': 5000, 'miles': [], 'gamma': 0.0001, 'num_nodes': 0, 'cross_validation': True, 'sparsity_factor': 5, 'pooling_type': 'topk', 'net_dir': './poisson/_standard/U_poisson_lmap10.0_btt15_seed56_lv4_hc3_nd50_ffn200_skip1_lr0.001_sc4_rate30_epochs5000_sparsity5_topkpool/'}
+Device used:  cuda
+Number of nodes processed:  2562
+Number of graphs processed:  100
+Number of sparse sensors: 5
+Type of Pooling: topk
+Is variability present at sensor locations: True
+Length of train dataset:  30
+Length of test dataset:  70
+Training network
+
+Loading best network for epoch:  3980
+
+Maximum absolute error for field GCA-ROM =  7.205912728678001
+Mean absolute error for field GCA-ROM =  1.1203890326842412
+Minimum absolute error for field GCA-ROM =  0.23214192891146093
+
+Maximum relative error for field GCA-ROM =  0.27725549932637866
+Mean relative error for field GCA-ROM =  0.03938799936278344
+Minimum relative error for field GCA-ROM =  0.007816594960249088
+
+Problem:  advection
+Variable:  U
+Parameters:  2
+Device used:  cuda
+Number of nodes processed:  3967
+Number of graphs processed:  100
+Number of sparse sensors: 1
+Type of Pooling: sag
+Is variability present at sensor locations: True
+Length of train dataset:  30
+Length of test dataset:  70
+Training network
+
+Loading best network for epoch:  4432
+
+Maximum absolute error for field GCA-ROM =  99.61907436661966
+Mean absolute error for field GCA-ROM =  17.39831543415941
+Minimum absolute error for field GCA-ROM =  0.115050111734563
+
+Maximum relative error for field GCA-ROM =  0.6373735104163053
+Mean relative error for field GCA-ROM =  0.29050165788915266
+Minimum relative error for field GCA-ROM =  0.04610774300073259
+
+Problem:  advection
+Variable:  U
+Parameters:  2
+Device used:  cuda
+Number of nodes processed:  3967
+Number of graphs processed:  100
+Number of sparse sensors: 1
+Type of Pooling: topk
+Is variability present at sensor locations: True
+Length of train dataset:  30
+Length of test dataset:  70
+Training network
+
+Loading best network for epoch:  1022
+
+Maximum absolute error for field GCA-ROM =  79.33275995018215
+Mean absolute error for field GCA-ROM =  19.96254167011775
+Minimum absolute error for field GCA-ROM =  0.0881101912886311
+
+Maximum relative error for field GCA-ROM =  0.536844518794906
+Mean relative error for field GCA-ROM =  0.37279754270204885
+Minimum relative error for field GCA-ROM =  0.0349558312171542
+
+Problem:  advection
+Variable:  U
+Parameters:  2
+Device used:  cuda
+Number of nodes processed:  3967
+Number of graphs processed:  100
+Number of sparse sensors: 3
+Type of Pooling: sag
+Is variability present at sensor locations: True
+Length of train dataset:  30
+Length of test dataset:  70
+Training network
+
+Loading best network for epoch:  3106
+
+Maximum absolute error for field GCA-ROM =  35.07104557686828
+Mean absolute error for field GCA-ROM =  6.764544236123224
+Minimum absolute error for field GCA-ROM =  0.17691018994539107
+
+Maximum relative error for field GCA-ROM =  0.21086260749064886
+Mean relative error for field GCA-ROM =  0.10887593420500484
+Minimum relative error for field GCA-ROM =  0.05645814910952303
+
+Problem:  advection
+Variable:  U
+Parameters:  2
+Device used:  cuda
+Number of nodes processed:  3967
+Number of graphs processed:  100
+Number of sparse sensors: 3
+Type of Pooling: topk
+Is variability present at sensor locations: True
+Length of train dataset:  30
+Length of test dataset:  70
+Training network
+
+Loading best network for epoch:  1200
+
+Maximum absolute error for field GCA-ROM =  81.19287518441031
+Mean absolute error for field GCA-ROM =  19.08277443504991
+Minimum absolute error for field GCA-ROM =  0.11906668276387208
+
+Maximum relative error for field GCA-ROM =  0.5562556392859636
+Mean relative error for field GCA-ROM =  0.37130329271568685
+Minimum relative error for field GCA-ROM =  0.03690699489718189
+
+Problem:  advection
+Variable:  U
+Parameters:  2
+Device used:  cuda
+Number of nodes processed:  3967
+Number of graphs processed:  100
+Number of sparse sensors: 5
+Type of Pooling: sag
+Is variability present at sensor locations: True
+Length of train dataset:  30
+Length of test dataset:  70
+Training network
+
+Loading best network for epoch:  2239
+
+Maximum absolute error for field GCA-ROM =  68.06423852507871
+Mean absolute error for field GCA-ROM =  15.004021512923934
+Minimum absolute error for field GCA-ROM =  0.13890588219188632
+
+Maximum relative error for field GCA-ROM =  0.46972202741832036
+Mean relative error for field GCA-ROM =  0.25205302548072317
+Minimum relative error for field GCA-ROM =  0.04507321084571998
+
+Problem:  advection
+Variable:  U
+Parameters:  2
+Device used:  cuda
+Number of nodes processed:  3967
+Number of graphs processed:  100
+Number of sparse sensors: 5
+Type of Pooling: topk
+Is variability present at sensor locations: True
+Length of train dataset:  30
+Length of test dataset:  70
+Training network
+
+Loading best network for epoch:  1197
+
+Maximum absolute error for field GCA-ROM =  85.9301432907913
+Mean absolute error for field GCA-ROM =  19.5406381852403
+Minimum absolute error for field GCA-ROM =  0.06533171250493103
+
+Maximum relative error for field GCA-ROM =  0.5823546375016737
+Mean relative error for field GCA-ROM =  0.37905490441123396
+Minimum relative error for field GCA-ROM =  0.02080738818466073
+
+Problem:  graetz
+Variable:  U
+Parameters:  2
+Device used:  cuda
+Number of nodes processed:  5160
+Number of graphs processed:  200
+Number of sparse sensors: 1
+Type of Pooling: sag
+Is variability present at sensor locations: True
+Length of train dataset:  60
+Length of test dataset:  140
+Training network
+
+Loading best network for epoch:  3756
+
+Maximum absolute error for field GCA-ROM =  4.651331373134746
+Mean absolute error for field GCA-ROM =  1.468999041004204
+Minimum absolute error for field GCA-ROM =  0.2978600597362563
+
+Maximum relative error for field GCA-ROM =  0.14132637706778103
+Mean relative error for field GCA-ROM =  0.03667368362484403
+Minimum relative error for field GCA-ROM =  0.006520479818323846
+
+Problem:  graetz
+Variable:  U
+Parameters:  2
+Device used:  cuda
+Number of nodes processed:  5160
+Number of graphs processed:  200
+Number of sparse sensors: 1
+Type of Pooling: topk
+Is variability present at sensor locations: True
+Length of train dataset:  60
+Length of test dataset:  140
+Training network
+
+Loading best network for epoch:  1611
+
+Maximum absolute error for field GCA-ROM =  4.4154001198372566
+Mean absolute error for field GCA-ROM =  1.6895908058891738
+Minimum absolute error for field GCA-ROM =  0.26994283496693755
+
+Maximum relative error for field GCA-ROM =  0.13002903984099418
+Mean relative error for field GCA-ROM =  0.04136763401864812
+Minimum relative error for field GCA-ROM =  0.00643859230477825
+
+Problem:  graetz
+Variable:  U
+Parameters:  2
+Device used:  cuda
+Number of nodes processed:  5160
+Number of graphs processed:  200
+Number of sparse sensors: 3
+Type of Pooling: sag
+Is variability present at sensor locations: True
+Length of train dataset:  60
+Length of test dataset:  140
+Training network
+
+Loading best network for epoch:  4893
+
+Maximum absolute error for field GCA-ROM =  5.120265268767011
+Mean absolute error for field GCA-ROM =  1.426604377559689
+Minimum absolute error for field GCA-ROM =  0.2002532791631856
+
+Maximum relative error for field GCA-ROM =  0.14213898220419494
+Mean relative error for field GCA-ROM =  0.03526505118915521
+Minimum relative error for field GCA-ROM =  0.004472198179846455
+
+Problem:  graetz
+Variable:  U
+Parameters:  2
+Device used:  cuda
+Number of nodes processed:  5160
+Number of graphs processed:  200
+Number of sparse sensors: 3
+Type of Pooling: topk
+Is variability present at sensor locations: True
+Length of train dataset:  60
+Length of test dataset:  140
+Training network
+
+Loading best network for epoch:  1228
+
+Maximum absolute error for field GCA-ROM =  4.759900622475141
+Mean absolute error for field GCA-ROM =  1.0183289810343386
+Minimum absolute error for field GCA-ROM =  0.2152511368180946
+
+Maximum relative error for field GCA-ROM =  0.13287795671927233
+Mean relative error for field GCA-ROM =  0.025913124282132643
+Minimum relative error for field GCA-ROM =  0.005026380607785629
+
+Problem:  graetz
+Variable:  U
+Parameters:  2
+Device used:  cuda
+Number of nodes processed:  5160
+Number of graphs processed:  200
+Number of sparse sensors: 5
+Type of Pooling: sag
+Is variability present at sensor locations: True
+Length of train dataset:  60
+Length of test dataset:  140
+Training network
+
+Loading best network for epoch:  1727
+
+Maximum absolute error for field GCA-ROM =  3.340221555791367
+Mean absolute error for field GCA-ROM =  1.2787933409700585
+Minimum absolute error for field GCA-ROM =  0.2856883281983043
+
+Maximum relative error for field GCA-ROM =  0.10226662314493586
+Mean relative error for field GCA-ROM =  0.03200767106535642
+Minimum relative error for field GCA-ROM =  0.006542626765356956
+
+Problem:  graetz
+Variable:  U
+Parameters:  2
+Device used:  cuda
+Number of nodes processed:  5160
+Number of graphs processed:  200
+Number of sparse sensors: 5
+Type of Pooling: topk
+Is variability present at sensor locations: True
+Length of train dataset:  60
+Length of test dataset:  140
+Training network
+
+Loading best network for epoch:  1269
+
+Maximum absolute error for field GCA-ROM =  4.710055537182727
+Mean absolute error for field GCA-ROM =  1.0484738297314045
+Minimum absolute error for field GCA-ROM =  0.17988262507692304
+
+Maximum relative error for field GCA-ROM =  0.13148647533941327
+Mean relative error for field GCA-ROM =  0.026214081441267082
+Minimum relative error for field GCA-ROM =  0.004389412906089544
+
+Problem:  navier_stokes
+Variable:  VX
+Parameters:  2
+Device used:  cuda
+Number of nodes processed:  2719
+Number of graphs processed:  341
+Number of sparse sensors: 1
+Type of Pooling: sag
+Is variability present at sensor locations: True
+Length of train dataset:  34
+Length of test dataset:  307
+Training network
+
+Loading best network for epoch:  1689
+
+Maximum absolute error for field GCA-ROM =  627.8843336904691
+Mean absolute error for field GCA-ROM =  104.2412740739397
+Minimum absolute error for field GCA-ROM =  17.045066996729457
+
+Maximum relative error for field GCA-ROM =  1.0962222622848996
+Mean relative error for field GCA-ROM =  0.19323382391798086
+Minimum relative error for field GCA-ROM =  0.03425070764032312
+
+Problem:  navier_stokes
+Variable:  VX
+Parameters:  2
+Device used:  cuda
+Number of nodes processed:  2719
+Number of graphs processed:  341
+Number of sparse sensors: 1
+Type of Pooling: topk
+Is variability present at sensor locations: True
+Length of train dataset:  34
+Length of test dataset:  307
+Training network
+
+Loading best network for epoch:  396
+
+Maximum absolute error for field GCA-ROM =  264.08394841055485
+Mean absolute error for field GCA-ROM =  91.6278341280585
+Minimum absolute error for field GCA-ROM =  21.867593996392067
+
+Maximum relative error for field GCA-ROM =  0.4774388059118906
+Mean relative error for field GCA-ROM =  0.1697661525178081
+Minimum relative error for field GCA-ROM =  0.04189764487401207
+
+Problem:  navier_stokes
+Variable:  VX
+Parameters:  2
+Device used:  cuda
+Number of nodes processed:  2719
+Number of graphs processed:  341
+Number of sparse sensors: 3
+Type of Pooling: sag
+Is variability present at sensor locations: False
+Length of train dataset:  34
+Length of test dataset:  307
+Training network
+
+Loading best network for epoch:  84
+
+Maximum absolute error for field GCA-ROM =  298.1086480118815
+Mean absolute error for field GCA-ROM =  97.74119107662806
+Minimum absolute error for field GCA-ROM =  13.734027789397382
+
+Maximum relative error for field GCA-ROM =  0.4677382484809519
+Mean relative error for field GCA-ROM =  0.18073137486823498
+Minimum relative error for field GCA-ROM =  0.026313979448535748
+
+Problem:  navier_stokes
+Variable:  VX
+Parameters:  2
+Device used:  cuda
+Number of nodes processed:  2719
+Number of graphs processed:  341
+Number of sparse sensors: 3
+Type of Pooling: topk
+Is variability present at sensor locations: False
+Length of train dataset:  34
+Length of test dataset:  307
+Training network
+
+Loading best network for epoch:  4999
+
+Maximum absolute error for field GCA-ROM =  299.6834723066962
+Mean absolute error for field GCA-ROM =  120.451738917689
+Minimum absolute error for field GCA-ROM =  20.951800001058682
+
+Maximum relative error for field GCA-ROM =  0.5024935975552154
+Mean relative error for field GCA-ROM =  0.2189007945543119
+Minimum relative error for field GCA-ROM =  0.04159327467974172
+
+Problem:  navier_stokes
+Variable:  VX
+Parameters:  2
+Device used:  cuda
+Number of nodes processed:  2719
+Number of graphs processed:  341
+Number of sparse sensors: 5
+Type of Pooling: sag
+Is variability present at sensor locations: False
+Length of train dataset:  34
+Length of test dataset:  307
+Training network
+
+Loading best network for epoch:  1008
+
+Maximum absolute error for field GCA-ROM =  549.5093757299236
+Mean absolute error for field GCA-ROM =  104.92311983532076
+Minimum absolute error for field GCA-ROM =  12.650969102447926
+
+Maximum relative error for field GCA-ROM =  0.8621908644446024
+Mean relative error for field GCA-ROM =  0.18959466634082175
+Minimum relative error for field GCA-ROM =  0.025277841206503716
+
+Problem:  navier_stokes
+Variable:  VX
+Parameters:  2
+Device used:  cuda
+Number of nodes processed:  2719
+Number of graphs processed:  341
+Number of sparse sensors: 5
+Type of Pooling: topk
+Is variability present at sensor locations: False
+Length of train dataset:  34
+Length of test dataset:  307
+Training network
+
+Loading best network for epoch:  324
+
+Maximum absolute error for field GCA-ROM =  327.1320219012224
+Mean absolute error for field GCA-ROM =  83.5297743265451
+Minimum absolute error for field GCA-ROM =  14.768537017758588
+
+Maximum relative error for field GCA-ROM =  0.5132764848204326
+Mean relative error for field GCA-ROM =  0.15481390775720721
+Minimum relative error for field GCA-ROM =  0.028296067659791056
+
+Problem:  navier_stokes
+Variable:  VY
+Parameters:  2
+Device used:  cuda
+Number of nodes processed:  2719
+Number of graphs processed:  341
+Number of sparse sensors: 1
+Type of Pooling: sag
+Is variability present at sensor locations: True
+Length of train dataset:  34
+Length of test dataset:  307
+Training network
+
+Loading best network for epoch:  415
+
+Maximum absolute error for field GCA-ROM =  83.46692696072023
+Mean absolute error for field GCA-ROM =  13.080822439725003
+Minimum absolute error for field GCA-ROM =  3.1877558943166506
+
+Maximum relative error for field GCA-ROM =  1.1346392672993677
+Mean relative error for field GCA-ROM =  0.43785693215131855
+Minimum relative error for field GCA-ROM =  0.1536843564352097
+
+Problem:  navier_stokes
+Variable:  VY
+Parameters:  2
+Device used:  cuda
+Number of nodes processed:  2719
+Number of graphs processed:  341
+Number of sparse sensors: 1
+Type of Pooling: topk
+Is variability present at sensor locations: True
+Length of train dataset:  34
+Length of test dataset:  307
+Training network
+
+Loading best network for epoch:  373
+
+Maximum absolute error for field GCA-ROM =  85.94612424111224
+Mean absolute error for field GCA-ROM =  14.14823802916321
+Minimum absolute error for field GCA-ROM =  2.7991541476606723
+
+Maximum relative error for field GCA-ROM =  1.1137781315115707
+Mean relative error for field GCA-ROM =  0.44225971093787636
+Minimum relative error for field GCA-ROM =  0.13494954381957028
+
+Problem:  navier_stokes
+Variable:  VY
+Parameters:  2
+Device used:  cuda
+Number of nodes processed:  2719
+Number of graphs processed:  341
+Number of sparse sensors: 3
+Type of Pooling: sag
+Is variability present at sensor locations: False
+Length of train dataset:  34
+Length of test dataset:  307
+Training network
+
+Loading best network for epoch:  389
+
+Maximum absolute error for field GCA-ROM =  118.82444213527941
+Mean absolute error for field GCA-ROM =  13.926371020815903
+Minimum absolute error for field GCA-ROM =  2.717946338634061
+
+Maximum relative error for field GCA-ROM =  1.8683134208539192
+Mean relative error for field GCA-ROM =  0.4537139659591176
+Minimum relative error for field GCA-ROM =  0.13103444797110242
+
+Problem:  navier_stokes
+Variable:  VY
+Parameters:  2
+Device used:  cuda
+Number of nodes processed:  2719
+Number of graphs processed:  341
+Number of sparse sensors: 3
+Type of Pooling: topk
+Is variability present at sensor locations: False
+Length of train dataset:  34
+Length of test dataset:  307
+Training network
+
+Loading best network for epoch:  208
+
+Maximum absolute error for field GCA-ROM =  72.34994440056015
+Mean absolute error for field GCA-ROM =  11.720589003193872
+Minimum absolute error for field GCA-ROM =  2.9778419981084623
+
+Maximum relative error for field GCA-ROM =  1.229794981781897
+Mean relative error for field GCA-ROM =  0.4066762886241535
+Minimum relative error for field GCA-ROM =  0.14387700330500447
+
+Problem:  navier_stokes
+Variable:  VY
+Parameters:  2
+Device used:  cuda
+Number of nodes processed:  2719
+Number of graphs processed:  341
+Number of sparse sensors: 5
+Type of Pooling: sag
+Is variability present at sensor locations: False
+Length of train dataset:  34
+Length of test dataset:  307
+Training network
+
+Loading best network for epoch:  357
+
+Maximum absolute error for field GCA-ROM =  55.04748228264516
+Mean absolute error for field GCA-ROM =  10.53521218868684
+Minimum absolute error for field GCA-ROM =  2.6437010522375295
+
+Maximum relative error for field GCA-ROM =  0.9146291530078886
+Mean relative error for field GCA-ROM =  0.37591258242679526
+Minimum relative error for field GCA-ROM =  0.12745502111519355
+
+Problem:  navier_stokes
+Variable:  VY
+Parameters:  2
+Device used:  cuda
+Number of nodes processed:  2719
+Number of graphs processed:  341
+Number of sparse sensors: 5
+Type of Pooling: topk
+Is variability present at sensor locations: False
+Length of train dataset:  34
+Length of test dataset:  307
+Training network
+
+Loading best network for epoch:  248
+
+Maximum absolute error for field GCA-ROM =  123.58978795173248
+Mean absolute error for field GCA-ROM =  13.32563052919311
+Minimum absolute error for field GCA-ROM =  2.6942216817708315
+
+Maximum relative error for field GCA-ROM =  1.8862883940738884
+Mean relative error for field GCA-ROM =  0.42818342216842514
+Minimum relative error for field GCA-ROM =  0.12989066258020338
+
+Problem:  navier_stokes
+Variable:  P
+Parameters:  2
+Device used:  cuda
+Number of nodes processed:  2719
+Number of graphs processed:  341
+Number of sparse sensors: 1
+Type of Pooling: sag
+Is variability present at sensor locations: True
+Length of train dataset:  34
+Length of test dataset:  307
+Training network
+
+Loading best network for epoch:  210
+
+Maximum absolute error for field GCA-ROM =  11917.058445630739
+Mean absolute error for field GCA-ROM =  1912.2290550019225
+Minimum absolute error for field GCA-ROM =  405.68230976430306
+
+Maximum relative error for field GCA-ROM =  0.7968597975053339
+Mean relative error for field GCA-ROM =  0.3282793392300995
+Minimum relative error for field GCA-ROM =  0.07555996041649839
+
+Problem:  navier_stokes
+Variable:  P
+Parameters:  2
+Device used:  cuda
+Number of nodes processed:  2719
+Number of graphs processed:  341
+Number of sparse sensors: 1
+Type of Pooling: topk
+Is variability present at sensor locations: True
+Length of train dataset:  34
+Length of test dataset:  307
+Training network
+
+Loading best network for epoch:  1769
+
+Maximum absolute error for field GCA-ROM =  4317.605209716752
+Mean absolute error for field GCA-ROM =  1461.6625000176955
+Minimum absolute error for field GCA-ROM =  591.5598074986287
+
+Maximum relative error for field GCA-ROM =  0.6901795622377246
+Mean relative error for field GCA-ROM =  0.31662016524783243
+Minimum relative error for field GCA-ROM =  0.05831195574472577
+
+Problem:  navier_stokes
+Variable:  P
+Parameters:  2
+Device used:  cuda
+Number of nodes processed:  2719
+Number of graphs processed:  341
+Number of sparse sensors: 3
+Type of Pooling: sag
+Is variability present at sensor locations: True
+Length of train dataset:  34
+Length of test dataset:  307
+Training network
+
+Loading best network for epoch:  3044
+
+Maximum absolute error for field GCA-ROM =  3171.4529014926497
+Mean absolute error for field GCA-ROM =  1104.3107630930572
+Minimum absolute error for field GCA-ROM =  270.84722070989193
+
+Maximum relative error for field GCA-ROM =  1.139004390167853
+Mean relative error for field GCA-ROM =  0.2727559594571363
+Minimum relative error for field GCA-ROM =  0.06163869036306598
+
+Problem:  navier_stokes
+Variable:  P
+Parameters:  2
+Device used:  cuda
+Number of nodes processed:  2719
+Number of graphs processed:  341
+Number of sparse sensors: 3
+Type of Pooling: topk
+Is variability present at sensor locations: True
+Length of train dataset:  34
+Length of test dataset:  307
+Training network
+
+Loading best network for epoch:  1274
+
+Maximum absolute error for field GCA-ROM =  4897.560374685715
+Mean absolute error for field GCA-ROM =  1398.2491473669681
+Minimum absolute error for field GCA-ROM =  361.84939449361076
+
+Maximum relative error for field GCA-ROM =  1.2190270842625772
+Mean relative error for field GCA-ROM =  0.316861332904145
+Minimum relative error for field GCA-ROM =  0.05767427530228135
+
+Problem:  navier_stokes
+Variable:  P
+Parameters:  2
+Device used:  cuda
+Number of nodes processed:  2719
+Number of graphs processed:  341
+Number of sparse sensors: 5
+Type of Pooling: sag
+Is variability present at sensor locations: True
+Length of train dataset:  34
+Length of test dataset:  307
+Training network
+
+Loading best network for epoch:  3644
+
+Maximum absolute error for field GCA-ROM =  9085.289183473928
+Mean absolute error for field GCA-ROM =  1777.456501064874
+Minimum absolute error for field GCA-ROM =  307.9504054527606
+
+Maximum relative error for field GCA-ROM =  1.17439480732742
+Mean relative error for field GCA-ROM =  0.34496723842566673
+Minimum relative error for field GCA-ROM =  0.08378471341011073
+
+Problem:  navier_stokes
+Variable:  P
+Parameters:  2
+Device used:  cuda
+Number of nodes processed:  2719
+Number of graphs processed:  341
+Number of sparse sensors: 5
+Type of Pooling: topk
+Is variability present at sensor locations: True
+Length of train dataset:  34
+Length of test dataset:  307
+Training network
+
+Loading best network for epoch:  1248
+
+Maximum absolute error for field GCA-ROM =  4584.164857095827
+Mean absolute error for field GCA-ROM =  1353.716737712046
+Minimum absolute error for field GCA-ROM =  376.74254529696475
+
+Maximum relative error for field GCA-ROM =  1.1701830861753795
+Mean relative error for field GCA-ROM =  0.3120407648481792
+Minimum relative error for field GCA-ROM =  0.05566066361638368
+
+Problem:  diffusion
+Variable:  U
+Parameters:  2
+Device used:  cuda
+Number of nodes processed:  933
+Number of graphs processed:  400
+Number of sparse sensors: 1
+Type of Pooling: sag
+Is variability present at sensor locations: True
+Length of train dataset:  120
+Length of test dataset:  280
+Training network
+
+Loading best network for epoch:  4889
+
+Maximum absolute error for field GCA-ROM =  14.455264157182757
+Mean absolute error for field GCA-ROM =  0.6459567044430025
+Minimum absolute error for field GCA-ROM =  1.9818226969148997e-09
+
+Maximum relative error for field GCA-ROM =  0.7823192529669472
+Mean relative error for field GCA-ROM =  0.12005693139608027
+Minimum relative error for field GCA-ROM =  0.003669324403922523
+
+Problem:  diffusion
+Variable:  U
+Parameters:  2
+Device used:  cuda
+Number of nodes processed:  933
+Number of graphs processed:  400
+Number of sparse sensors: 1
+Type of Pooling: topk
+Is variability present at sensor locations: True
+Length of train dataset:  120
+Length of test dataset:  280
+Training network
+
+Loading best network for epoch:  1488
+
+Maximum absolute error for field GCA-ROM =  17.305964788250055
+Mean absolute error for field GCA-ROM =  0.6487643422475917
+Minimum absolute error for field GCA-ROM =  9.298241290801926e-10
+
+Maximum relative error for field GCA-ROM =  0.8419598974459892
+Mean relative error for field GCA-ROM =  0.12342255439041082
+Minimum relative error for field GCA-ROM =  0.009682778663482898
+
+Problem:  diffusion
+Variable:  U
+Parameters:  2
+Device used:  cuda
+Number of nodes processed:  933
+Number of graphs processed:  400
+Number of sparse sensors: 3
+Type of Pooling: sag
+Is variability present at sensor locations: True
+Length of train dataset:  120
+Length of test dataset:  280
+Training network
+
+Loading best network for epoch:  4971
+
+Maximum absolute error for field GCA-ROM =  1.3269458444782978
+Mean absolute error for field GCA-ROM =  0.02749098092277322
+Minimum absolute error for field GCA-ROM =  4.856610570089154e-10
+
+Maximum relative error for field GCA-ROM =  0.06455781002697289
+Mean relative error for field GCA-ROM =  0.013074607967821431
+Minimum relative error for field GCA-ROM =  0.0022568164932285427
+
+Problem:  diffusion
+Variable:  U
+Parameters:  2
+Device used:  cuda
+Number of nodes processed:  933
+Number of graphs processed:  400
+Number of sparse sensors: 3
+Type of Pooling: topk
+Is variability present at sensor locations: True
+Length of train dataset:  120
+Length of test dataset:  280
+Training network
+
+Loading best network for epoch:  1583
+
+Maximum absolute error for field GCA-ROM =  2.2542958100806727
+Mean absolute error for field GCA-ROM =  0.048520322944495625
+Minimum absolute error for field GCA-ROM =  4.615038704346064e-10
+
+Maximum relative error for field GCA-ROM =  0.10967470997959722
+Mean relative error for field GCA-ROM =  0.01355218845338092
+Minimum relative error for field GCA-ROM =  0.0016872805775788925
+
+Problem:  diffusion
+Variable:  U
+Parameters:  2
+Device used:  cuda
+Number of nodes processed:  933
+Number of graphs processed:  400
+Number of sparse sensors: 5
+Type of Pooling: sag
+Is variability present at sensor locations: False
+Length of train dataset:  120
+Length of test dataset:  280
+Training network
+
+Loading best network for epoch:  4891
+
+Maximum absolute error for field GCA-ROM =  1.0429956255633621
+Mean absolute error for field GCA-ROM =  0.0243779178744154
+Minimum absolute error for field GCA-ROM =  4.801112638185589e-10
+
+Maximum relative error for field GCA-ROM =  0.050743226435556704
+Mean relative error for field GCA-ROM =  0.011976962964702204
+Minimum relative error for field GCA-ROM =  0.001799981456251938
+
+Problem:  diffusion
+Variable:  U
+Parameters:  2
+Device used:  cuda
+Number of nodes processed:  933
+Number of graphs processed:  400
+Number of sparse sensors: 5
+Type of Pooling: topk
+Is variability present at sensor locations: False
+Length of train dataset:  120
+Length of test dataset:  280
+Training network
+
+Loading best network for epoch:  1983
+
+Maximum absolute error for field GCA-ROM =  1.9323784114714333
+Mean absolute error for field GCA-ROM =  0.04072840402585195
+Minimum absolute error for field GCA-ROM =  3.0187480500718863e-10
+
+Maximum relative error for field GCA-ROM =  0.09401296888422994
+Mean relative error for field GCA-ROM =  0.010287970427404442
+Minimum relative error for field GCA-ROM =  0.003214349722871055
+
+Problem:  poiseuille
+Variable:  U
+Parameters:  2
+Device used:  cuda
+Number of nodes processed:  771
+Number of graphs processed:  1000
+Number of sparse sensors: 1
+Type of Pooling: sag
+Is variability present at sensor locations: True
+Length of train dataset:  300
+Length of test dataset:  700
+Training network
+
+Loading best network for epoch:  4998
+
+Maximum absolute error for field GCA-ROM =  1.4579438973794807
+Mean absolute error for field GCA-ROM =  0.15353075356485987
+Minimum absolute error for field GCA-ROM =  0.00011091037346354749
+
+Maximum relative error for field GCA-ROM =  0.7089263260124197
+Mean relative error for field GCA-ROM =  0.07198666796829933
+Minimum relative error for field GCA-ROM =  0.014488620981899075
+
+Problem:  poiseuille
+Variable:  U
+Parameters:  2
+Device used:  cuda
+Number of nodes processed:  771
+Number of graphs processed:  1000
+Number of sparse sensors: 1
+Type of Pooling: topk
+Is variability present at sensor locations: True
+Length of train dataset:  300
+Length of test dataset:  700
+Training network
+
+Loading best network for epoch:  1472
+
+Maximum absolute error for field GCA-ROM =  1.4015080153246084
+Mean absolute error for field GCA-ROM =  0.16502035726990322
+Minimum absolute error for field GCA-ROM =  0.00026854537894514514
+
+Maximum relative error for field GCA-ROM =  0.6797319198051038
+Mean relative error for field GCA-ROM =  0.08093228600413883
+Minimum relative error for field GCA-ROM =  0.03331912712461758
+
+Problem:  poiseuille
+Variable:  U
+Parameters:  2
+Device used:  cuda
+Number of nodes processed:  771
+Number of graphs processed:  1000
+Number of sparse sensors: 3
+Type of Pooling: sag
+Is variability present at sensor locations: True
+Length of train dataset:  300
+Length of test dataset:  700
+Training network
+
+Loading best network for epoch:  4982
+
+Maximum absolute error for field GCA-ROM =  0.5423259515598232
+Mean absolute error for field GCA-ROM =  0.06309142756410208
+Minimum absolute error for field GCA-ROM =  7.896953658160427e-05
+
+Maximum relative error for field GCA-ROM =  0.3587500900594178
+Mean relative error for field GCA-ROM =  0.03902622221464665
+Minimum relative error for field GCA-ROM =  0.00858292771773074
+
+Problem:  poiseuille
+Variable:  U
+Parameters:  2
+Device used:  cuda
+Number of nodes processed:  771
+Number of graphs processed:  1000
+Number of sparse sensors: 3
+Type of Pooling: topk
+Is variability present at sensor locations: True
+Length of train dataset:  300
+Length of test dataset:  700
+Training network
+
+Loading best network for epoch:  1441
+
+Maximum absolute error for field GCA-ROM =  0.862810251062293
+Mean absolute error for field GCA-ROM =  0.09835151827180878
+Minimum absolute error for field GCA-ROM =  0.0002500579520325796
+
+Maximum relative error for field GCA-ROM =  0.4123677640630887
+Mean relative error for field GCA-ROM =  0.05628245497327392
+Minimum relative error for field GCA-ROM =  0.026500856942596657
+
+Problem:  poiseuille
+Variable:  U
+Parameters:  2
+Device used:  cuda
+Number of nodes processed:  771
+Number of graphs processed:  1000
+Number of sparse sensors: 5
+Type of Pooling: sag
+Is variability present at sensor locations: True
+Length of train dataset:  300
+Length of test dataset:  700
+Training network
+
+Loading best network for epoch:  4852
+
+Maximum absolute error for field GCA-ROM =  0.40388576363492834
+Mean absolute error for field GCA-ROM =  0.06709777946990476
+Minimum absolute error for field GCA-ROM =  8.069271330401097e-05
+
+Maximum relative error for field GCA-ROM =  0.356075846247244
+Mean relative error for field GCA-ROM =  0.03962535696868276
+Minimum relative error for field GCA-ROM =  0.007595913737002544
+
+Problem:  poiseuille
+Variable:  U
+Parameters:  2
+Device used:  cuda
+Number of nodes processed:  771
+Number of graphs processed:  1000
+Number of sparse sensors: 5
+Type of Pooling: topk
+Is variability present at sensor locations: True
+Length of train dataset:  300
+Length of test dataset:  700
+Training network
+
+Loading best network for epoch:  1474
+
+Maximum absolute error for field GCA-ROM =  0.8463493150654916
+Mean absolute error for field GCA-ROM =  0.09328233059211269
+Minimum absolute error for field GCA-ROM =  0.00021331679734765897
+
+Maximum relative error for field GCA-ROM =  0.4045004961869488
+Mean relative error for field GCA-ROM =  0.057208326148610024
+Minimum relative error for field GCA-ROM =  0.026429871077723585
+
+Problem:  elasticity
+Variable:  U
+Parameters:  2
+Device used:  cuda
+Number of nodes processed:  1702
+Number of graphs processed:  121
+Number of sparse sensors: 1
+Type of Pooling: sag
+Is variability present at sensor locations: True
+Length of train dataset:  36
+Length of test dataset:  85
+Training network
+
+Loading best network for epoch:  4176
+
+Maximum absolute error for field GCA-ROM =  0.01833598933467733
+Mean absolute error for field GCA-ROM =  0.002653482634804884
+Minimum absolute error for field GCA-ROM =  0.00027642430685639
+
+Maximum relative error for field GCA-ROM =  0.003491144145832023
+Mean relative error for field GCA-ROM =  0.0008243829139775503
+Minimum relative error for field GCA-ROM =  0.00020581571908434148
+
+Problem:  elasticity
+Variable:  U
+Parameters:  2
+Device used:  cuda
+Number of nodes processed:  1702
+Number of graphs processed:  121
+Number of sparse sensors: 1
+Type of Pooling: topk
+Is variability present at sensor locations: True
+Length of train dataset:  36
+Length of test dataset:  85
+Training network
+
+Loading best network for epoch:  1477
+
+Maximum absolute error for field GCA-ROM =  0.017191394810489685
+Mean absolute error for field GCA-ROM =  0.0018671860247322241
+Minimum absolute error for field GCA-ROM =  0.0001633254201202661
+
+Maximum relative error for field GCA-ROM =  0.0033677913281699497
+Mean relative error for field GCA-ROM =  0.0006313044517826923
+Minimum relative error for field GCA-ROM =  7.809280055978449e-05
+
+Problem:  elasticity
+Variable:  U
+Parameters:  2
+Device used:  cuda
+Number of nodes processed:  1702
+Number of graphs processed:  121
+Number of sparse sensors: 3
+Type of Pooling: sag
+Is variability present at sensor locations: True
+Length of train dataset:  36
+Length of test dataset:  85
+Training network
+
+Loading best network for epoch:  3669
+
+Maximum absolute error for field GCA-ROM =  0.009749493647132193
+Mean absolute error for field GCA-ROM =  0.0012511314192577142
+Minimum absolute error for field GCA-ROM =  0.00012147471443402891
+
+Maximum relative error for field GCA-ROM =  0.0012847082072568155
+Mean relative error for field GCA-ROM =  0.00033577812088235004
+Minimum relative error for field GCA-ROM =  0.00010870012924001482
+
+Problem:  elasticity
+Variable:  U
+Parameters:  2
+Device used:  cuda
+Number of nodes processed:  1702
+Number of graphs processed:  121
+Number of sparse sensors: 3
+Type of Pooling: topk
+Is variability present at sensor locations: True
+Length of train dataset:  36
+Length of test dataset:  85
+Training network
+
+Loading best network for epoch:  1436
+
+Maximum absolute error for field GCA-ROM =  0.006544933716614991
+Mean absolute error for field GCA-ROM =  0.00048479698354770466
+Minimum absolute error for field GCA-ROM =  4.549444409303948e-05
+
+Maximum relative error for field GCA-ROM =  0.0008713833578444593
+Mean relative error for field GCA-ROM =  0.00014057403244395163
+Minimum relative error for field GCA-ROM =  3.6430442121741624e-05
+
+Problem:  elasticity
+Variable:  U
+Parameters:  2
+Device used:  cuda
+Number of nodes processed:  1702
+Number of graphs processed:  121
+Number of sparse sensors: 5
+Type of Pooling: sag
+Is variability present at sensor locations: True
+Length of train dataset:  36
+Length of test dataset:  85
+Training network
+
+Loading best network for epoch:  4233
+
+Maximum absolute error for field GCA-ROM =  0.013206168331266897
+Mean absolute error for field GCA-ROM =  0.00147261397837909
+Minimum absolute error for field GCA-ROM =  7.590230278560592e-05
+
+Maximum relative error for field GCA-ROM =  0.0018163131795569409
+Mean relative error for field GCA-ROM =  0.00041184987078381245
+Minimum relative error for field GCA-ROM =  6.292700154983638e-05
+
+Problem:  elasticity
+Variable:  U
+Parameters:  2
+Device used:  cuda
+Number of nodes processed:  1702
+Number of graphs processed:  121
+Number of sparse sensors: 5
+Type of Pooling: topk
+Is variability present at sensor locations: True
+Length of train dataset:  36
+Length of test dataset:  85
+Training network
+
+Loading best network for epoch:  1583
+
+Maximum absolute error for field GCA-ROM =  0.005048248978241902
+Mean absolute error for field GCA-ROM =  0.0005557410416220484
+Minimum absolute error for field GCA-ROM =  3.585218058582268e-05
+
+Maximum relative error for field GCA-ROM =  0.0006721168366805725
+Mean relative error for field GCA-ROM =  0.00015134911921108602
+Minimum relative error for field GCA-ROM =  3.0675389269223626e-05
+
+Problem:  stokes_u
+Variable:  U
+Parameters:  7
+Device used:  cuda
+Number of nodes processed:  3152
+Number of graphs processed:  704
+Number of sparse sensors: 1
+Type of Pooling: sag
+Is variability present at sensor locations: True
+Length of train dataset:  211
+Length of test dataset:  493
+Training network
+
+Loading best network for epoch:  2926
+
+Maximum absolute error for field GCA-ROM =  41.967419493775516
+Mean absolute error for field GCA-ROM =  15.280248609893818
+Minimum absolute error for field GCA-ROM =  5.289508469101612
+
+Maximum relative error for field GCA-ROM =  0.6911706505220672
+Mean relative error for field GCA-ROM =  0.3160235476276569
+Minimum relative error for field GCA-ROM =  0.08305468467697291
+
+Problem:  stokes_u
+Variable:  U
+Parameters:  7
+Device used:  cuda
+Number of nodes processed:  3152
+Number of graphs processed:  704
+Number of sparse sensors: 1
+Type of Pooling: topk
+Is variability present at sensor locations: True
+Length of train dataset:  211
+Length of test dataset:  493
+Training network
+
+Loading best network for epoch:  4821
+
+Maximum absolute error for field GCA-ROM =  43.66619309479169
+Mean absolute error for field GCA-ROM =  17.258899645694868
+Minimum absolute error for field GCA-ROM =  7.414102277863458
+
+Maximum relative error for field GCA-ROM =  0.6443396868708147
+Mean relative error for field GCA-ROM =  0.3350607749451086
+Minimum relative error for field GCA-ROM =  0.1529041583067208
+
+Problem:  stokes_u
+Variable:  U
+Parameters:  7
+Device used:  cuda
+Number of nodes processed:  3152
+Number of graphs processed:  704
+Number of sparse sensors: 3
+Type of Pooling: sag
+Is variability present at sensor locations: True
+Length of train dataset:  211
+Length of test dataset:  493
+Training network
+
+Loading best network for epoch:  2272
+
+Maximum absolute error for field GCA-ROM =  36.34799431883788
+Mean absolute error for field GCA-ROM =  12.81937250354472
+Minimum absolute error for field GCA-ROM =  4.715453779186603
+
+Maximum relative error for field GCA-ROM =  0.5797137593713244
+Mean relative error for field GCA-ROM =  0.249906286374933
+Minimum relative error for field GCA-ROM =  0.07411433370894728
+
+Problem:  stokes_u
+Variable:  U
+Parameters:  7
+Device used:  cuda
+Number of nodes processed:  3152
+Number of graphs processed:  704
+Number of sparse sensors: 3
+Type of Pooling: topk
+Is variability present at sensor locations: True
+Length of train dataset:  211
+Length of test dataset:  493
+Training network
+
+Loading best network for epoch:  1336
+
+Maximum absolute error for field GCA-ROM =  37.66348835820185
+Mean absolute error for field GCA-ROM =  14.416251081908747
+Minimum absolute error for field GCA-ROM =  4.205929678051082
+
+Maximum relative error for field GCA-ROM =  0.7989388405639204
+Mean relative error for field GCA-ROM =  0.28290823029899853
+Minimum relative error for field GCA-ROM =  0.12233416166750712
+
+Problem:  stokes_u
+Variable:  U
+Parameters:  7
+Device used:  cuda
+Number of nodes processed:  3152
+Number of graphs processed:  704
+Number of sparse sensors: 5
+Type of Pooling: sag
+Is variability present at sensor locations: True
+Length of train dataset:  211
+Length of test dataset:  493
+Training network
+
+Loading best network for epoch:  3216
+
+Maximum absolute error for field GCA-ROM =  54.671028532934976
+Mean absolute error for field GCA-ROM =  12.42968188644137
+Minimum absolute error for field GCA-ROM =  2.174364626727532
+
+Maximum relative error for field GCA-ROM =  0.8022356352654255
+Mean relative error for field GCA-ROM =  0.2422204655014577
+Minimum relative error for field GCA-ROM =  0.05299743078208475
+
+Problem:  stokes_u
+Variable:  U
+Parameters:  7
+Device used:  cuda
+Number of nodes processed:  3152
+Number of graphs processed:  704
+Number of sparse sensors: 5
+Type of Pooling: topk
+Is variability present at sensor locations: True
+Length of train dataset:  211
+Length of test dataset:  493
+Training network
+
+Loading best network for epoch:  1285
+
+Maximum absolute error for field GCA-ROM =  45.39670597153749
+Mean absolute error for field GCA-ROM =  14.33485007913775
+Minimum absolute error for field GCA-ROM =  3.337214825063282
+
+Maximum relative error for field GCA-ROM =  0.636032736912747
+Mean relative error for field GCA-ROM =  0.27673600229827644
+Minimum relative error for field GCA-ROM =  0.11047995530655805
